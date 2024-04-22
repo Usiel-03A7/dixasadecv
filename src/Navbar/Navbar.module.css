@@ -1,0 +1,40 @@
+.container {
+    display: flex ;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3e3e3ee5;
+    width: 99%;
+    margin: 5px auto;
+    height: 10rem;
+    border-radius: 20px;
+
+}
+
+.imgContainer {
+    display: flex;
+    justify-content: center;
+    
+    width: 30%;
+    margin-right: 16rem;
+    
+}
+.imgContainer img{
+    width: 20%;
+    border-radius: 50%;
+}
+.navegation{
+    display: flex;
+    width: 25%;
+    
+    
+}
+.navegationList{
+    display: flex;
+    gap: 3rem;
+    font-size: 2rem;
+    
+}
+ul{
+    justify-content: space-between;
+    list-style-type: none;
+} 
