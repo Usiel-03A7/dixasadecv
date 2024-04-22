@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    color: #fff;
+    gap: 2rem;
+    align-items: center;
+    width: 98%;
+    margin: 4rem auto;
+    justify-content: space-between;
+}
+
+.containerImg img{
+    border-radius: 5px;
+}
+.containerInfo{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient( #0f4467,#1d9199);
+    font-size: 1.5rem;
+    justify-content: center;
+    padding: 2rem;
+    border-radius: 5px;
+    gap: 3.2rem;
+    height: 54rem;
+}

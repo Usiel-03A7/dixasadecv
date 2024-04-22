@@ -1,0 +1,16 @@
+@keyframes alternateBackground {
+    0% {
+        background: linear-gradient(#1d9199, #7ea2bd);
+    }
+    50% {
+        background: linear-gradient(#242c33, #768794);
+    }
+    100% {
+        background: linear-gradient(#768794, #242c33);
+    }
+}
+
+html {
+    animation: alternateBackground 2s infinite; /* Ajusta la duración de la animación según tus preferencias */
+    height: 100%;
+}
