@@ -5,21 +5,19 @@
     gap: 2rem;
     align-items: center;
     width: 98%;
-    background: linear-gradient(#242c33, #768794);
     margin: 10rem auto;
     justify-content: space-between;
 }
+
 .container h3 {
     font-size: 3.3rem;
 }
 
 .containerInfo{
     display: flex;
-    gap: 3rem;
+    gap: 3rem; 
 }
-.containerInfo img{
-    
-}
+
 .containerParagraph {
     display: flex;
     justify-content: center;
