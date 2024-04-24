@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import style from "./Navbar.module.css"; // Importa el archivo de estilos
 
 export default function Navbar() {
