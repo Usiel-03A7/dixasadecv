@@ -1,6 +1,7 @@
 .container {
     display: flex;
     flex-direction: column;
+    background: linear-gradient(#242c33, #768794);
     
 
 }
@@ -11,15 +12,15 @@
     width: 90%;
     background-color: #6a6a6acf;
     justify-content: space-around;
+    border-radius: 1rem;
     gap: 1rem;
 }
 .containerProject>h3{
     display: flex;
     justify-content: center;
     text-align: center;
-    
     color: #fff;
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 .containerImg{
     display: flex;
@@ -42,4 +43,12 @@
     color: #fff;
     align-items: center;
     font-size: 2rem;
+}
+.containerProject:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    margin-left: 12rem;
+    width: 90%;
+    background-color: #6a6a6acf;
+    
 }

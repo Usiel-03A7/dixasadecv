@@ -1,10 +1,22 @@
 .container {
-    display: flex ;
+    display: flex;
+    position: fixed;
+    top: 1rem;
+    background: none;
     align-items: center;
     color: #fff;
-    margin: 5px auto;
+    border-radius: 1rem;
+    margin: 0 auto;
     gap: 45rem;
-
+    padding: 10px;
+    width: 90%; 
+    height: 8rem;
+    z-index: 1000; 
+    transition: background-color 0.3s ease;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
 }
 
 .imgContainer {
@@ -12,25 +24,31 @@
     justify-content: center;
     margin-right: 35rem;
 }
-.imgContainer img{
+
+.imgContainer img {
     display: flex;
-    width: 50%;
+    width:7rem;
     border-radius: 50%;
-    
 }
-.navegation{
+
+.navegation {
     display: flex;
     margin-right: 3rem;
-    
 }
-.navegationList{
+
+.navegationList {
     display: flex;
     gap: 3rem;
     font-size: 2rem;
-    
-    
+    list-style-type: none;
 }
-ul{
+
+ul {
     justify-content: space-between;
     list-style-type: none;
-} 
+}
+
+
+.navbar-fixed {
+    background: linear-gradient(#242c339e, #768794d4);
+}

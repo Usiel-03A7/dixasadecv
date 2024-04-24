@@ -22,11 +22,16 @@ export default function Projects() {
                         calidad de vida de sus ocupantes.</p>
                 </span>
             </span>
-            <span>
-                <h3></h3>
-                <span>
-                    <img src="" alt="Pryecto" />
-                    <p></p>
+            <span className={style.containerProject}>
+                <h3>Proyecto Cocina</h3>
+                <span className={style.containerImg}>
+                    <img src="./ProyectoCocina.jpg" alt="Pryecto" />
+                    <p>El proyecto de cocina de DIXA es una propuesta arquitectónica innovadora que combina diseño contemporáneo con funcionalidad.
+                        Destaca por su enfoque en materiales sostenibles y tecnología avanzada para promover la eficiencia energética. Con una
+                        distribución inteligente del espacio, maximiza la utilidad y comodidad del usuario. Incorpora soluciones innovadoras que
+                        simplifican las tareas diarias en la cocina. Este proyecto redefine el concepto tradicional de cocina, adaptándose a las
+                        necesidades y estilo de vida contemporáneos, reflejando el compromiso de DIXA con la innovación y la calidad en cada
+                        iniciativa.</p>
                 </span>
             </span>
 
