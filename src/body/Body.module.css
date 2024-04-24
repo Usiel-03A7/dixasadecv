@@ -1,5 +1,6 @@
 .container{
     display: flex;
+    flex-direction: column;
     color: #fff;
     gap: 2rem;
     align-items: center;
@@ -7,18 +8,23 @@
     margin: 4rem auto;
     justify-content: space-between;
 }
-
-.containerImg img{
-    border-radius: 5px;
+.container h3 {
+    font-size: 3.3rem;
 }
+
 .containerInfo{
     display: flex;
-    flex-direction: column;
-    background: linear-gradient( #0f4467,#1d9199);
-    font-size: 1.5rem;
+    gap: 3rem;
+}
+.containerInfo img{
+    
+}
+.containerParagraph {
+    display: flex;
     justify-content: center;
-    padding: 2rem;
-    border-radius: 5px;
-    gap: 3.2rem;
-    height: 54rem;
+    text-align: center;
+    align-items: center;
+    
+    
+    font-size: 1.8rem;
 }

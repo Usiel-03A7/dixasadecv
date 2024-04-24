@@ -1,37 +1,33 @@
 .container {
     display: flex ;
-    justify-content: space-around;
     align-items: center;
     color: #fff;
-    width: 99%;
     margin: 5px auto;
-    height: 10rem;
-    border-radius: 20px;
+    gap: 45rem;
 
 }
 
 .imgContainer {
     display: flex;
     justify-content: center;
-    
-    width: 30%;
-    margin-right: 16rem;
-    
+    margin-right: 35rem;
 }
 .imgContainer img{
-    width: 20%;
+    display: flex;
+    width: 50%;
     border-radius: 50%;
+    
 }
 .navegation{
     display: flex;
-    width: 25%;
-    
+    margin-right: 3rem;
     
 }
 .navegationList{
     display: flex;
     gap: 3rem;
     font-size: 2rem;
+    
     
 }
 ul{

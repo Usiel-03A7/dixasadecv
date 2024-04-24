@@ -1,12 +1,14 @@
 @keyframes alternateBackground {
     0% {
-        background: linear-gradient(#1d9199, #7ea2bd);
+        background: linear-gradient(#242c33, #768794);
     }
     50% {
+        
+        /* background: linear-gradient(#1d9199, #7ea2bd); */
         background: linear-gradient(#242c33, #768794);
     }
     100% {
-        background: linear-gradient(#768794, #242c33);
+        background: linear-gradient(#242c33, #768794);
     }
 }
 
