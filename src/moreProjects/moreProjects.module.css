@@ -28,15 +28,13 @@
     width: 35rem;
     height: 35rem;
     cursor: pointer;
-    border: solid 2px #000;
 }
 .containerProjectsChildren:hover img {
     transition: .5s;  
-    border: solid 2px #ff0000;
+    
 }
 .containerProjectsChildren > p{
     margin: 2rem;
-    border: solid 2px #0022ff;
     font-size: 17px;
     visibility: hidden;
     opacity: 1;
