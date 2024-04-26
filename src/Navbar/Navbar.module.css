@@ -68,10 +68,14 @@ ul {
    }
    .navegation {
     display: flex;
-    justify-content: center;
-    border: solid 2px #ff0000;
+    position: fixed;
+    width: 50%;
+    justify-content: flex-start;
+    text-align: center;
+    align-items: center;
     text-align: center;
     margin: 0 auto;
+    top: 2.6rem;
     
    }
    .navegationList{
