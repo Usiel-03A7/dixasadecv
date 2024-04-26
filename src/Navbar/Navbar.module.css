@@ -11,14 +11,16 @@
     padding: 10px;
     width: 90%; 
     height: 8rem;
-    z-index: 1000; 
+    z-index: 1; 
     transition: background-color 0.3s ease;
     left: 0; 
     right: 0; 
     margin-left: auto; 
     margin-right: auto; 
 }
-
+.manubar{
+    visibility: hidden;
+}
 .imgContainer {
     display: flex;
     justify-content: center;
@@ -51,4 +53,33 @@ ul {
 
 .navbar-fixed {
     background: linear-gradient(#242c339e, #768794d4);
+}
+@media screen and (max-width: 768px) {
+    .container {
+        display: flex;
+        position: fixed;
+        top: 1rem;
+        background: none;
+        align-items: center;
+        color: #fff;
+        border-radius: 1rem;
+        margin: 0 auto;
+        gap: 45rem;
+        padding: 10px;
+        width: 90%; 
+        height: 8rem;
+        z-index: 1; 
+        transition: background-color 0.3s ease;
+        left: 0; 
+        right: 0; 
+        margin-left: auto; 
+        margin-right: auto; 
+    }
+    .imgContainer{
+        width: 5rem;
+    }
+    .menubar{
+    visibility: visible;
+    }
+
 }
