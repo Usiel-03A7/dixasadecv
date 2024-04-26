@@ -56,29 +56,41 @@ ul {
    .container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
+    width: 27%;
+    margin: 0 0 0 1rem;
     border: solid 2px #fff;
-    width: 90%;
-   }
-   .imgContainer{
+    
+}
+.imgContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 5rem;
-   }
-   .imgContainer >img{
-    width: 3rem;
-   }
-   .navegation {
+    margin: 0 0 0 5rem ;
+    
+    width: 10rem;
+    height: 10rem;
+}
+.imgContainer >img{
+    width: 5rem;
+    height: 5rem;
+    
+}
+.navegation {
     display: flex;
     position: fixed;
-    width: 50%;
-    justify-content: flex-start;
-    text-align: center;
-    align-items: center;
-    text-align: center;
-    margin: 0 auto;
-    top: 2.6rem;
+    margin: 1rem 0 0 7rem;
+    width: 23rem;
+}
+.navegationList{
+    margin-right: 5rem;
+    gap: 1em;
+    display: flex;
+    flex-direction: column;
     
-   }
-   .navegationList{
+    font-size: 1rem;
     width: 50%;
    }
 }
