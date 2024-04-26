@@ -52,3 +52,30 @@
     width: 90%;
 
 }
+@media only screen and (max-width: 600px) {
+.container {
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-start;
+     margin: 0 0 0 1rem;
+ }
+ .containerImg{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.containerImg>p{
+    font-size: 1rem;
+    margin: 0 auto;
+    width: 90%;
+}
+.containerImg > img{
+    width: 100%;
+}
+
+.containerProject:nth-child(2){
+    margin: 0 auto;
+    
+ }
+
+ }

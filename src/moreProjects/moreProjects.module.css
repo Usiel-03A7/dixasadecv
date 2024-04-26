@@ -56,13 +56,30 @@
 @media only screen and (max-width: 600px) {
     .container {
      display: flex;
-     flex-direction: column;
-     width: 1fr;
+     flex-direction: row;
     }
-    .imgContainer{
-     width: 5rem;
-    }
-    .imgContainer >img{
-     width: 3rem;
-    }
+    .containerProjects{
+    display: flex;
+    flex-direction: column;
+   }
+  .containerProjectsChildren > img{
+    width: 22rem;
+    margin: 0 1rem;
+    padding: 1rem;
+  }
+  .containerProjectsChildren > p{
+    width: 22rem;
+    
+  }
+  .containerProjectsChildren:hover > p{
+    position: absolute;
+    visibility: visible;
+    background-color: #0000009e;
+    opacity: 1;
+    transition: 0.5s;
+    color: #ffffff;
+    border: 2px #c0c0c0 solid;
+    z-index: 1;
+    margin-top: 13rem;
+}
  }

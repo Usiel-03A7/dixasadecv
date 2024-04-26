@@ -57,8 +57,6 @@ ul {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    width: 27%;
-    margin: 0 0 0 1rem;
     border: solid 2px #fff;
     
 }
