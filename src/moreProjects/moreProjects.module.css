@@ -53,3 +53,16 @@
     z-index: 1;
     
 }
+@media only screen and (max-width: 600px) {
+    .container {
+     display: flex;
+     flex-direction: column;
+     width: 1fr;
+    }
+    .imgContainer{
+     width: 5rem;
+    }
+    .imgContainer >img{
+     width: 3rem;
+    }
+ }
