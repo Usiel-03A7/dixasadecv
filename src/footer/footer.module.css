@@ -14,7 +14,7 @@
     width: 100%;
     height: 100%;
     align-items: center;
-    background-color: #768794d4;
+    background-color: #76879496;
     gap: 3rem;
     justify-content: center;
 }
@@ -22,4 +22,17 @@
     color: #fff;
     text-decoration: none;
     font-size: 3rem;
+}
+@media only screen and (max-width: 600px) {
+    .container{
+        width: 23.2rem;
+    }
+   .containerSocial {
+    width: 23.2rem;
+    margin: 0 auto;
+   }
+   .containerSocial >a {
+    width: 90%;
+    font-size: 1rem;
+   }
 }
