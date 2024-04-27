@@ -3,6 +3,7 @@ import Body from './body';
 import style from "./App.module.css"
 import Projects from './projects';
 import MoreProjects from './moreProjects';
+import Footer from './footer';
 function App() {
 
   return (
@@ -11,9 +12,7 @@ function App() {
       <Body />
       <Projects />
       <MoreProjects />
-      <h1>
-
-      </h1>
+      <Footer />
     </div>
   )
 }
