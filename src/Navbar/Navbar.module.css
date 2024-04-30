@@ -36,11 +36,18 @@
     margin-right: 3rem;
 }
 
-.navegationList {
+.navegationList{
     display: flex;
     gap: 3rem;
+}
+.navegationList>li>a {
+    display: flex;
+    flex-direction: row;
+    
+    color: #fff;
     font-size: 2rem;
     list-style-type: none;
+    text-decoration: none;
 }
 
 ul {

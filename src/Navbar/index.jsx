@@ -28,8 +28,8 @@ export default function Navbar() {
             <span className={style.navegation}>
                 <ul className={style.navegationList}>
                     <li> <a href="/AboutUs">Inicio</a> </li>
-                    <li>Nosotros</li>
-                    <li>Contactanos</li>
+                    <li><a href="/">Nosotros</a></li>
+                    <li><a href="/">Contactanos</a></li>
                 </ul>
             </span>
         </nav>
