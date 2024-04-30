@@ -44,14 +44,20 @@
 }
 @media only screen and (max-width: 600px) {
     .container{
-        width: 23.2rem;
+     width: 23rem;
+     margin: 0 auto;
+     border: solid 2px #000;
     }
    .containerSocial {
-    width: 23.2rem;
-    margin: 0 auto;
+    width: 20.2rem;
+   }
+   .containerSocial h3{
+    font-size: 1.7rem;
+    gap: 1rem;
    }
    .containerSocial >a {
     width: 90%;
     font-size: 1rem;
+    margin: 0 auto;
    }
 }
