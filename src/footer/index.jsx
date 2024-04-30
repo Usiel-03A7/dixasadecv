@@ -8,8 +8,8 @@ export default function Footer() {
                 <a href="https://www.instagram.com/dixa.dc?igsh=MWFkNGhqbjdlbWU4Yg==" target="_blanck" > instagram</a>
             </span>
             <span className={style.information} >
-                <p>© 2021 DIXA diseñpy contrucción. Todos los derechos reservados.</p>
-                <p> | Política de Privacidad | Términos y Condiciones | <a href="/Contactanos">Contáctanos</a></p>
+                <p>© 2021 DIXA diseño y construcción. Todos los derechos reservados.</p>
+                <p className={style.informationP}> | Política de Privacidad | Términos y Condiciones | <a href="/Contactanos">Contáctanos</a></p>
             </span>
 
         </div>

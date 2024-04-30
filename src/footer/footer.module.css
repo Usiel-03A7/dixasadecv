@@ -17,18 +17,21 @@
     align-items: center;
     background-color: #76879496;
     gap: 3rem;
-    border: solid 2px #000;
+    
     justify-content: center;
 }
 .containerSocial > h3{
     color: #fff;
     font-size: 3rem;
 }
-.containerSocial a{
+.containerSocial>a{
     color: #fff;
     text-decoration: none;
     font-size: 2rem;
 } 
+.informationP >a {
+    color: #fff;
+}
 .information{
     display: flex;
     flex-direction: column;
