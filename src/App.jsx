@@ -1,19 +1,24 @@
 import Navbar from './Navbar';
 import Body from './body';
-import style from "./App.module.css"
+
 import Projects from './projects';
 import MoreProjects from './moreProjects';
 import Footer from './footer';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import AboutUs from './aboutUs';
 function App() {
 
   return (
-    <div className={style.container}>
+    <BrowserRouter >
+      <Routes>
+        <Route path='/AboutUs' Component={AboutUs} />
+      </Routes>
       <Navbar />
       <Body />
       <Projects />
       <MoreProjects />
       <Footer />
-    </div>
+    </BrowserRouter>
   )
 }
 

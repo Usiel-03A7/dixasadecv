@@ -27,7 +27,7 @@ export default function Navbar() {
             </span>
             <span className={style.navegation}>
                 <ul className={style.navegationList}>
-                    <li>Inicio</li>
+                    <li> <a href="/AboutUs">Inicio</a> </li>
                     <li>Nosotros</li>
                     <li>Contactanos</li>
                 </ul>
