@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import style from "./Navbar.module.css"; // Importa el archivo de estilos
+import { Link } from 'react-router-dom';
 
 export default function Navbar() {
     const [isScrolled, setIsScrolled] = useState(false);
@@ -27,11 +28,11 @@ export default function Navbar() {
             </span>
             <span className={style.navegation}>
                 <ul className={style.navegationList}>
-                    <li> <a href="/AboutUs">Inicio</a> </li>
-                    <li><a href="/">Nosotros</a></li>
-                    <li><a href="/">Contactanos</a></li>
+                    <li> <Link to="/AboutUs">Inicio</Link> </li>
+                    <li><Link to="/">Nosotros</Link></li>
+                    <li>< Link to="/">Contactanos</Link></li>
                 </ul>
             </span>
-        </nav>
+        </nav >
     );
 }
