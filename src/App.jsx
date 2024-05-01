@@ -1,25 +1,31 @@
 import Navbar from './Navbar';
 import Body from './body';
-
 import Projects from './projects';
 import MoreProjects from './moreProjects';
 import Footer from './footer';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import AboutUs from './aboutUs';
-function App() {
+import ContactUs from './contactUs';
+import Portafolio from './portafolio/index,';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+
+export default function App() {
 
   return (
     <BrowserRouter >
-      <Routes>
-        <Route path='/AboutUs' Component={AboutUs} />
-      </Routes>
+
+
       <Navbar />
+      <Routes>
+        <Route path='/AboutUs' element={<AboutUs />} />
+        <Route path='/ContactUs' element={<ContactUs />} />
+        <Route path='/Portafolio' element={<Portafolio />} />
+      </Routes>
       <Body />
       <Projects />
       <MoreProjects />
       <Footer />
+
     </BrowserRouter>
   )
 }
 
-export default App
