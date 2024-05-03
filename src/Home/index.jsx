@@ -2,12 +2,12 @@ import Body from "../Body"
 import Projects from "../Projects"
 import MoreProjects from "../MoreProjects"
 
-const Home = () =>{
+const Home = () => {
     return (
         <>
-            <Body/>
-            <Projects/>
-            <MoreProjects/>
+            <Body />
+            <Projects />
+            <MoreProjects />
         </>
     )
 }
