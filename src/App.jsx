@@ -1,10 +1,10 @@
-import Navbar from './Navbar';
-import Footer from './Footer';
-import AboutUs from './AboutUs';
-import ContactUs from './ContactUs';
-import Portafolio from './Portafolio';
+import Navbar from './Components/Navbar';
+import Footer from './Components/Footer';
+import AboutUs from './pages/AboutUs';
+import ContactUs from './pages/ContactUs';
+import Portafolio from './pages/Portafolio';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Home from './Home';
+import Home from './pages/Home';
 
 export default function App() {
 

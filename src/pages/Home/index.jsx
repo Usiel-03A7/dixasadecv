@@ -1,6 +1,6 @@
-import Body from "../Body"
-import Projects from "../Projects"
-import MoreProjects from "../MoreProjects"
+import Body from "../../Components/Body"
+import Projects from "../../Components/Projects"
+import MoreProjects from "../../Components/MoreProjects"
 
 const Home = () => {
     return (
