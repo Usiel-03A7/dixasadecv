@@ -73,7 +73,7 @@ export default function ContactUs() {
                     <button type="submit">Enviar</button> {/* Usar el tipo "submit" para que el formulario se envíe cuando se haga clic en el botón */}
                 </form>
             </span>
-            <span className={style.containermap}>
+            <span className={style.containerMap}>
                 <h2>Estamos aquí</h2>
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d235.38887581669294!2d-103.7353529709047!3d19.272709164800386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8425452dae4398a1%3A0x4c345c95c502315a!2sPapeler%C3%ADa%20e%20impresiones%20ARQUI!5e0!3m2!1ses-419!2smx!4v1714843148771!5m2!1ses-419!2smx"

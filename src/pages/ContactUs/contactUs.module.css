@@ -1,41 +1,74 @@
+.container {
+  display: flex;
+  
+  flex-direction: column;
+  color: #fff;
+  justify-content: center;
+  width: 90%;
+  margin: 11rem auto 0 auto;
+}
+.containerHistory {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin-bottom: 2rem;
+}
+.containerHistory h2 {
+  font-size: 3rem;
+}
+.containerHistory p {
+  font-size: 2rem;
+}
+
 .containerFrom {
     display: flex;
     flex-direction: column;
     max-width: 300px;
     margin: 10rem auto 0 auto;
+    align-items: center;
     
-  }
+}
   
-  .containerFrom input,
-  .containerFrom button {
+.containerFrom input,
+.containerFrom button {
     margin-bottom: 15px;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 16px;
-  }
+    width: 20rem;
+}
   
-  .containerFrom button {
-    background-color: #007bff;
+.containerFrom button {
+    background-color: #85afbd;
     color: white;
     cursor: pointer;
     transition: background-color 0.3s ease;
-  }
+}
   
-  .containerFrom button:hover {
+.containerFrom button:hover {
     background-color: #0056b3;
-  }
+}
   
-  .containerFrom input[type="text"],
-  .containerFrom input[type="email"],
-  .containerFrom input[type="number"] {
+.containerFrom input[type="text"],
+.containerFrom input[type="email"],
+.containerFrom input[type="number"] {
     width: 100%;
-  }
+}
   
   .containerFrom input[type="text"]:focus,
   .containerFrom input[type="email"]:focus,
   .containerFrom input[type="number"]:focus {
     outline: none;
-    border-color: #007bff;
+    border-color: #85afbd;
   }
-  
+  .containerMap{
+    margin: 0 auto;
+  }
+  @media only screen and (max-width: 600px) {
+    .containermap iframe{
+      width: 100%;
+      height: 100%;
+    }
+
+ }
