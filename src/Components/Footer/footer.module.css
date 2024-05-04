@@ -17,7 +17,6 @@
     align-items: center;
     background-color: #76879496;
     gap: 3rem;
-    
     justify-content: center;
 }
 .containerSocial > h3{
@@ -54,10 +53,15 @@
    .containerSocial h3{
     font-size: 1.7rem;
     gap: 1rem;
+    padding: 0 0 0 1rem;
    }
    .containerSocial >a {
     width: 90%;
     font-size: 1rem;
     margin: 0 auto;
+    padding: 0 0 0 1rem;
+   }
+   .information {
+    padding: 0 1rem 0 0 0;
    }
 }

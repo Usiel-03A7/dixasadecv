@@ -51,6 +51,22 @@ export default function AboutUs() {
                 <p>En Dixa, no solo construimos estructuras, creamos experiencias. Estamos aquí para inspirarte, guiarte y hacer realidad tus proyectos
                     más ambiciosos. Únete a nosotros en este emocionante viaje hacia el diseño y la construcción de clase mundial.</p>
             </span>
+            <span className={style.containerMyV}>
+                <span className={style.containerMission}>
+                    <h2>Mision</h2>
+                    <p>Nuestra misión en Dixa es crear espacios arquitectónicos excepcionales que reflejen la personalidad y
+                        las necesidades de nuestros clientes. Nos comprometemos a ofrecer soluciones de diseño innovadoras, funcionales y
+                        estéticamente atractivas, utilizando materiales de alta calidad y prácticas de construcción sostenibles. Buscamos establecer
+                        relaciones sólidas con nuestros clientes, basadas en la confianza, la transparencia y la colaboración, y nos esforzamos por superar
+                        sus expectativas en cada proyecto que emprendemos</p>
+                </span>
+                <span className={style.containerVision}>
+                    <h2>Vision</h2>
+                    <p>En Dixa, aspiramos a ser líderes en el campo de la arquitectura y la construcción, reconocidos por nuestra innovación, creatividad y
+                        compromiso con la excelencia. Nos esforzamos por transformar el panorama urbano con diseños inspiradores y sostenibles que mejoren la calidad
+                        de vida de las personas y contribuyan al desarrollo de comunidades vibrantes y prósperas</p>
+                </span>
+            </span>
 
         </div >
     )

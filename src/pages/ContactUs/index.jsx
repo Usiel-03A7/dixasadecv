@@ -33,8 +33,17 @@ export default function ContactUs() {
 
     return (
         <div className={style.container}>
-            <span></span>
-            <span></span>
+            <span className={style.containerHistory}>
+                <h2>Historia de DIXA</h2>
+                <p>Dixa fue fundada en 2021 por las arquitectos Mayra Moreno y Jenni no se sus apellidos.
+                    Su pasión por el diseño innovador y la construcción de alta calidad los llevó a establecer una empresa que se enfoca
+                    en crear espacios arquitectónicos excepcionales que satisfacen las necesidades y deseos de sus clientes</p>
+            </span>
+            <span className={style.containerArchitecs}>
+                <h2>Arquitectas</h2>
+                <h3>Mayra Paola Moreno Jerez</h3>
+                <h3>Junnyfer Nomeacuerdo Sunombre Peroluegolopongo</h3>
+            </span>
             <span>
                 <form className={style.containerFrom} onSubmit={handleSubmit} >
                     <input

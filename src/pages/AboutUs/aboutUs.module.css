@@ -41,6 +41,30 @@
     width: 50%;
     color: #fff;
 }
+.containerMyV{
+    color: #fff;
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.containerMission , .containerVision {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.6rem;
+    margin: 1rem 0;
+}
+.containerMission h2, .containerVision h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+.containerMission p, .containerVision p{
+    font-size: 1.3rem   ;
+}
+
 @media only screen and (max-width: 600px) {
     .container {
      display: flex;
@@ -80,5 +104,22 @@
     .containerParraphs {
         width: 90%;
     }
+    .containerMyV{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 3rem;
+        color: #fff;
+        width: 100%;
+        
+        margin: 0 auto;
+    }
+    .containerMission h2, .containerVision h2{
+    font-size: 2rem;
     
+    }
+    .containerMission p, .containerVision p{
+        font-size: 1.2rem;
+        width: 100%;
+    }
  }
