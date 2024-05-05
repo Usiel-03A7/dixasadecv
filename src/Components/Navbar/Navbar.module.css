@@ -63,10 +63,12 @@ ul {
 @media only screen and (max-width: 600px) {
    .container {
     display: flex;
+    position: fixed;
+    width: 20rem;
     flex-direction: column;
-    justify-content: flex-start;
     border: solid 2px #fff;
     height: 7.5rem;
+    
 }
 .imgContainer{
     display: flex;

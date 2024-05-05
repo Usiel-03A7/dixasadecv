@@ -43,7 +43,7 @@
 }
 @media only screen and (max-width: 600px) {
     .container{
-     width: 23rem;
+     width: 23srem;
      margin: 0 auto;
      
     }

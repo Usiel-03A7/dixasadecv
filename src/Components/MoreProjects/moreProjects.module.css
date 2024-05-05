@@ -54,24 +54,32 @@
     
 }
 @media only screen and (max-width: 600px) {
-    .container {
+.container {
      display: flex;
      flex-direction: row;
-    }
-    .containerProjects{
+     justify-content: center;
+}
+
+.containerProjects{
     display: flex;
+    width: 18rem;
     flex-direction: column;
-   }
-  .containerProjectsChildren > img{
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+}
+.containerProjectsChildren{
     width: 22rem;
-    margin: 0 1rem;
-    padding: 1rem;
-  }
-  .containerProjectsChildren > p{
+}
+.containerProjectsChildren > img{
+    width: 100%;
+    
+}
+.containerProjectsChildren > p{
     width: 22rem;
     
-  }
-  .containerProjectsChildren:hover > p{
+}
+.containerProjectsChildren:hover > p{
     position: absolute;
     visibility: visible;
     background-color: #0000009e;
@@ -82,4 +90,5 @@
     z-index: 1;
     margin-top: 13rem;
 }
- }
+
+}
