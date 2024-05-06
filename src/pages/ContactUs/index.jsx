@@ -41,8 +41,8 @@ export default function ContactUs() {
             </span>
             <span className={style.containerArchitecs}>
                 <h2>Arquitectas</h2>
-                <h3>Mayra Paola Moreno Jerez</h3>
-                <h3>Junnyfer Nomeacuerdo Sunombre Peroluegolopongo</h3>
+                <h3>ARQ. Yuliana Iselt Anguiano Arreola</h3>
+                <h3>ARQ. Mayra Paola Moreno Jimenez</h3>
                 <img src="./portada.jpg" alt="portada" />
             </span>
 
