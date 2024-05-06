@@ -40,7 +40,7 @@ export default function ContactUs() {
                     en crear espacios arquitectónicos excepcionales que satisfacen las necesidades y deseos de sus clientes</p>
             </span>
             <span className={style.containerArchitecs}>
-                <h2>Arquitectas</h2>
+                <h2>Copropietarios</h2>
                 <h3>ARQ. Yuliana Iselt Anguiano Arreola</h3>
                 <h3>ARQ. Mayra Paola Moreno Jimenez</h3>
                 <img src="./portada.jpg" alt="portada" />
