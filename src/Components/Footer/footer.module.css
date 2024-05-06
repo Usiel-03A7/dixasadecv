@@ -1,6 +1,6 @@
 .container {
     display: flex;
-    background-image: url("FOOTER.jpg");
+    background-image: url("./FOOTER.jpg");
     width: 100%;
     background-position: center;
     height: 20rem;
