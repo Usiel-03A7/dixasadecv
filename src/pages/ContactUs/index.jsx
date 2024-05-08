@@ -35,7 +35,7 @@ export default function ContactUs() {
         <div className={style.container}>
             <span className={style.containerHistory}>
                 <h2>Historia de DIXA</h2>
-                <p>Dixa fue fundada en 2021 por las arquitectos Mayra Moreno y Jenni no se sus apellidos.
+                <p>Dixa fue fundada en 2021 por las arquitectos Mayra Moreno y Yuliana Anguiano no se sus apellidos.
                     Su pasión por el diseño innovador y la construcción de alta calidad los llevó a establecer una empresa que se enfoca
                     en crear espacios arquitectónicos excepcionales que satisfacen las necesidades y deseos de sus clientes</p>
             </span>

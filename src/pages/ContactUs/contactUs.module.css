@@ -31,6 +31,9 @@
   align-items: center;
 
 }
+.containerFrom h2 {
+  margin: 1rem 0;
+}
 .containerFrom textarea{
   width: 41rem;
   height: 10rem;
