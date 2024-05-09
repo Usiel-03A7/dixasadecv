@@ -17,7 +17,7 @@ export default function App() {
         <Route path='/AboutUs' element={<AboutUs />} />
         <Route path='/ContactUs' element={<ContactUs />} />
         <Route path='/Portafolio' element={<Portafolio />} />
-        <Route path='/Login' element={<Login />} />
+        <Route path='/login-admin' element={<Login />} />
         <Route path='*' element={<Portafolio />} />
       </Routes>
 
