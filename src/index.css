@@ -1,10 +1,13 @@
 @font-face {
-  font-family: 'bahnshchrift';
-  src: url('/Bahnschrift-Font-Family/BAHNSCHRIFT 10.TTF');
+  /* font-family: 'bahnshchrift'; */
+  font-family: 'soberana';
+  /* src: url('/Bahnschrift-Font-Family/BAHNSCHRIFT.TTF'); */
+  src: url('/soberana-san/SoberanaSans-Italic.otf');
+
 }
 *{
   margin: 0;
   padding: 0;
-  font-family: 'bahnshchrift';
-  
+  font-family: 'soberana';
+  font-weight:10;
 }
