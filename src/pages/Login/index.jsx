@@ -7,18 +7,16 @@ const Login = () => {
     const password = 'D1x4s4d3c7';
     const [error, setError] = useState(null);
 
+
     const handleLogin = () => {
-        // Aquí podrías agregar la lógica para autenticar al usuario
-        // Por simplicidad, solo mostraremos un mensaje de error si los campos están vacíos
+
         if (!email || !password) {
             setError('Por favor, completa todos los campos.');
         } else {
             setError(null);
-            // Aquí puedes realizar la autenticación o enviar los datos a tu servidor
             console.log('Email:', email);
             console.log('Password:', password);
-            alert('El sistema te dice hola mi estimada ARQ: Mayra Moreno')
-            // También puedes redirigir al usuario a otra página después de iniciar sesión
+            window.location.href = '/admin';
         }
     };
 

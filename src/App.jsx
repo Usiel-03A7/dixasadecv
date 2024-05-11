@@ -6,6 +6,7 @@ import Portafolio from './pages/Portafolio';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import Login from './pages/Login';
+import Admin from './pages/Admin';
 
 export default function App() {
 
@@ -18,6 +19,7 @@ export default function App() {
         <Route path='/ContactUs' element={<ContactUs />} />
         <Route path='/Portafolio' element={<Portafolio />} />
         <Route path='/login-admin' element={<Login />} />
+        <Route path='/admin' element={<Admin />} />
         <Route path='*' element={<Portafolio />} />
       </Routes>
 
