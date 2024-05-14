@@ -1,35 +1,36 @@
+import { useState } from "react";
+import style from "./contactUs.module.css";
 
-import { useState } from "react"
-import style from "./contactUs.module.css"
 export default function ContactUs() {
-
     const [formData, setFormData] = useState({
-        name: "",
+        fullname: "",
         number: "",
         mail: "",
         subject: "",
         textArea: ""
-    })
+    });
+
     const handleInputChange = (e) => {
         const { name, value } = e.target;
         setFormData({
             ...formData,
-            name, value
+            [name]: value
         });
-        console.log(formData);
-    }
+    };
+
     const handleSubmit = (e) => {
         e.preventDefault();
-        console.log(formData);
+        const person = { ...formData };
+        console.log(person);
 
         setFormData({
-            name: '',
+            fullname: '',
             number: '',
             mail: '',
             subject: '',
             textArea: ''
-        })
-    }
+        });
+    };
 
     return (
         <div className={style.container}>
@@ -47,38 +48,43 @@ export default function ContactUs() {
             </span>
 
             <span className={style.containerFormMap}>
-                <form className={style.containerFrom} onSubmit={handleSubmit} >
-                    <h2 >Mandanos tus dudas</h2>
+                <form className={style.containerFrom} onSubmit={handleSubmit}>
+                    <h2>Mandanos tus dudas</h2>
                     <input
                         type="text"
                         placeholder="Ingresa tu nombre completo"
-                        name={name}
-                        onChange={handleInputChange} // Asignar el manejador handleInputChange al evento onChange del campo
+                        name="fullname"
+                        value={formData.fullname}
+                        onChange={handleInputChange}
                     />
                     <input
                         type="number"
-                        placeholder="Ingresa tu Numero"
+                        placeholder="Ingresa tu Número"
                         name="number"
+                        value={formData.number}
                         onChange={handleInputChange}
                     />
                     <input
                         type="email"
                         placeholder="Ingresa tu Correo"
                         name="mail"
+                        value={formData.mail}
                         onChange={handleInputChange}
                     />
                     <input
                         type="text"
                         placeholder="Ingresa el asunto"
                         name="subject"
+                        value={formData.subject}
                         onChange={handleInputChange}
                     />
-                    <textarea placeholder="Ingrese el mensaje a enviar"
-                        type="text"
+                    <textarea
+                        placeholder="Ingrese el mensaje a enviar"
                         name="textArea"
+                        value={formData.textArea}
                         onChange={handleInputChange}
                     ></textarea>
-                    <button type="submit">Enviar</button> {/* Usar el tipo "submit" para que el formulario se envíe cuando se haga clic en el botón */}
+                    <button type="submit">Enviar</button>
                 </form>
                 <span className={style.containerMap}>
                     <h2>Estamos aquí</h2>
@@ -94,5 +100,5 @@ export default function ContactUs() {
                 </span>
             </span>
         </div>
-    )
+    );
 }
